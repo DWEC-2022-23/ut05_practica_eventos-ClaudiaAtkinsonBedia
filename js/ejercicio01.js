@@ -8,11 +8,9 @@ function inicio()
     divNum.addEventListener("mouseover", cambiarColor);
     divNum.addEventListener("mouseout", volverAlColor);
 
-
     function calcularTriple(num)
     {
         num = divNum.value;
-        console.log(num);
         num = num * 3;
         divNum.innerHTML = num;
     }
